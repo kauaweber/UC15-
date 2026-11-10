@@ -10,3 +10,9 @@ export type AppTabParamList = {
   Favoritos: undefined;
   Configuracoes: undefined;
 };
+
+export type AppDrawerParamList = {
+  Loja: NavigatorScreenParams<AppTabParamList>;
+  Favoritos: undefined;
+  Configuracoes: undefined;
+};
